@@ -48,6 +48,12 @@ seed = np.copy(image)
 seed[1:-1, 1:-1] = image.min()
 mask = image
 
+dimensions = np.shape(image)
+x = dimensions[0]
+y = dimensions[1]
+
+
+
 dilated = reconstruction(seed, mask, method='dilation')
 # Subtracting the dilated image leaves an image with just the coins and a flat, black background, as shown below.
 
@@ -56,8 +62,13 @@ final = img_as_int(final)
 
 cleanFinal = morphology.remove_small_objects(final, 21)
 
-plt.imshow(cleanFinal, cmap='gray')
+fig = plt.figure(figsize=(5, 5))
+
+plt.imshow(cleanFinal)  # cmap='gray'
+plt.colorbar()
 plt.axis('off')
 
-plt.show()
+# plt.savefig("/Users/Spencer/PycharmProjects/PieceRecognizer/results/dilated.png", dpi=600)
+
+# plt.show()
 
