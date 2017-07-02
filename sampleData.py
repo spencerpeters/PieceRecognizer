@@ -19,3 +19,9 @@ def smallBn():
 def smallGraphene():
      """20x color Graphene image containing target piece, small size"""
      return graphene()[1000:2500, 2200:3600]
+
+def monolayer():
+    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/grapheneImages1/17_04_11_graphene_chip1_15.JPG")
+
+def smallMonolayer():
+    pass
