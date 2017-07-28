@@ -2,75 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/DataTransformer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/Metadata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageDetailsMetadata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageMetadataBase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/colorClusterer.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IHaskell.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dilationTest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/importsForTesting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plot_coins_segmentation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sampleData.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spencerUtilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tryAlternateColorSpace.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_52.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_52.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_53.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_53.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_54.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_54.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_55.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_55.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_56.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_56.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_57.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_57.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_58.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_58.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_59.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_59.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_cold_BN_5APR2017_50.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_cold_BN_5APR2017_50.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_cold_BN_5APR2017_51.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_cold_BN_5APR2017_51.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_20_BN_07.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_20_BN_07.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_20_BN_08.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_20_BN_08.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_12.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_12.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_13.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_13.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_14.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_14.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_15.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_15.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_16.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_16.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_17.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_17.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_18.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_18.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_19.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_19.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_20.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_20.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_21.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_21.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_22.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_22.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_23.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_23.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_24.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_24.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_25.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_25.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_26.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_26.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_27.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_27.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_28.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_28.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_29.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_29.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_33.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_33.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_34.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_34.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_35.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_35.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/canny edges.png" afterPath="$PROJECT_DIR$/derived/Script experiment/canny edges.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_4.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_5.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_6.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_7.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_8.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_9.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/histogram of grey values.png" afterPath="$PROJECT_DIR$/derived/Script experiment/histogram of grey values.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/threshold.png" afterPath="$PROJECT_DIR$/derived/Script experiment/threshold.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/dilated.pdf" afterPath="$PROJECT_DIR$/derived/dilated.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/dilated.png" afterPath="$PROJECT_DIR$/derived/dilated.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/hsiHsv results/hue.jpg" afterPath="$PROJECT_DIR$/derived/hsiHsv results/hue.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/results/mean_filter.png" afterPath="$PROJECT_DIR$/derived/mean_filter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled folder/WHAT.png" afterPath="$PROJECT_DIR$/Other/WHAT.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled folder/figure_1.png" afterPath="$PROJECT_DIR$/Other/figure_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebooks/TestingDifferentColorChannels.ipynb" afterPath="$PROJECT_DIR$/notebooks/TestingDifferentColorChannels.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/canny edges.png" afterPath="$PROJECT_DIR$/Other/Script experiment/canny edges.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_4.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_5.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_6.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_7.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_8.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/figure_9.png" afterPath="$PROJECT_DIR$/Other/Script experiment/figure_9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/histogram of grey values.png" afterPath="$PROJECT_DIR$/Other/Script experiment/histogram of grey values.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/Script experiment/threshold.png" afterPath="$PROJECT_DIR$/Other/Script experiment/threshold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/dilated.pdf" afterPath="$PROJECT_DIR$/Other/dilated.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/dilated.png" afterPath="$PROJECT_DIR$/Other/dilated.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/hsiHsv results/hue.jpg" afterPath="$PROJECT_DIR$/Other/hsiHsv results/hue.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/derived/mean_filter.png" afterPath="$PROJECT_DIR$/Other/mean_filter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/colorClusterer.py" afterPath="$PROJECT_DIR$/src/colorClusterer.py" />
     </list>
     <ignored path="PieceRecognizer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,6 +28,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PieceRecognizer$colorClusterer.coverage" NAME="colorClusterer Coverage Results" MODIFIED="1501283526258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -91,18 +39,7 @@
     <favorites_list name="PieceRecognizer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04225352">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -205,20 +142,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="originals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -249,7 +172,7 @@
       <recent name="$PROJECT_DIR$/pythonSource/initialPython" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.colorClusterer">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -265,6 +188,24 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="colorClusterer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PieceRecognizer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/colorClusterer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -449,6 +390,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.colorClusterer" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.colorClusterer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -476,7 +425,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -544,12 +493,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_52.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabeled.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04225352">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="e#111#129#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region95.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region151.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region88.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region83.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region33.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region14.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/region0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/Script experiment/figure_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/hsiHsv results/hue.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
