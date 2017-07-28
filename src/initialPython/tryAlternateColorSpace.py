@@ -7,7 +7,7 @@ import skimage.io
 import skimage.color
 import skimage
 
-bn = skimage.io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/bnImages1/17_04_19_bn_54.JPG")
+bn = skimage.io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/originals/bnImages1/17_04_19_bn_54.JPG")
 
 hsv = skimage.color.rgb2hsv(bn)
 
@@ -41,7 +41,7 @@ hsv = skimage.color.rgb2hsv(bn)
 
 grey = hsv[:, :, 0]
 
-skimage.io.imsave("/Users/Spencer/PycharmProjects/PieceRecognizer/results/hsiHsv results/hue.jpg", grey)
+skimage.io.imsave("/Users/Spencer/PycharmProjects/PieceRecognizer/derived/hsiHsv derived/hue.jpg", grey)
 
 
 

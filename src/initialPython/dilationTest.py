@@ -21,7 +21,7 @@ from skimage import data
 from skimage import img_as_float
 from skimage.morphology import reconstruction
 
-dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/data"
+dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/originals"
 
 filename = os.path.join(dataDirectory, 'bnImages1/17_04_19_bn_52.JPG')
 
@@ -68,7 +68,7 @@ plt.imshow(cleanFinal)  # cmap='gray'
 plt.colorbar()
 plt.axis('off')
 
-# plt.savefig("/Users/Spencer/PycharmProjects/PieceRecognizer/results/dilated.png", dpi=600)
+# plt.savefig("/Users/Spencer/PycharmProjects/PieceRecognizer/derived/dilated.png", dpi=600)
 
 # plt.show()
 

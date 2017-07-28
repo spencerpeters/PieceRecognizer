@@ -13,13 +13,13 @@ import matplotlib.pyplot as plt
 
 from skimage import data
 
-# coins = data.coins()
+# coins = originals.coins()
 import skimage.io
 from skimage.color import rgb2gray, rgb2hsv
 from skimage import img_as_ubyte
 
 
-bnRGB = skimage.io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/bnImages1/17_04_19_bn_54.JPG")
+bnRGB = skimage.io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/originals/bnImages1/17_04_19_bn_54.JPG")
 bnGrey = rgb2hsv(bnRGB)[:, :, 0]
 # bnGrey = rgb2gray(bnRGB)
 bnGrey = img_as_ubyte(bnGrey)

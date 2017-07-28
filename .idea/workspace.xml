@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="055362d6-82b6-4c81-83d5-6c107d3b33c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestingDifferentColorChannels.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/importsForTesting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spencerUtilities.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PieceRecognizer.iml" afterPath="$PROJECT_DIR$/.idea/PieceRecognizer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PieceRecognizerNB1.ipynb" afterPath="$PROJECT_DIR$/PieceRecognizerNB1.ipynb" />
+    <list default="true" id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/DataTransformer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/Metadata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageDetailsMetadata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageMetadataBase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/colorClusterer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IHaskell.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dilationTest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/importsForTesting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plot_coins_segmentation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sampleData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spencerUtilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testSciKit3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tryAlternateColorSpace.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_52.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_52.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_53.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_53.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_54.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_54.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_55.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_55.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_56.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_56.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_57.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_57.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_58.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_58.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_bn_59.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_59.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_cold_BN_5APR2017_50.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_cold_BN_5APR2017_50.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_19_cold_BN_5APR2017_51.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_19_cold_BN_5APR2017_51.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_20_BN_07.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_20_BN_07.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/bnImages1/17_04_20_BN_08.JPG" afterPath="$PROJECT_DIR$/originals/bnImages1/17_04_20_BN_08.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_12.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_12.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_13.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_13.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_14.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_14.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_15.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_15.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_16.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_16.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_17.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_17.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_18.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_18.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_19.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_19.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_20.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_20.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_21.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_21.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_22.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_22.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_23.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_23.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_24.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_24.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_25.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_25.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_26.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_26.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_27.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_27.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_28.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_28.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_29.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_29.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_33.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_33.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_34.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_34.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_35.JPG" afterPath="$PROJECT_DIR$/originals/grapheneImages1/17_04_11_graphene_chip1_35.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/canny edges.png" afterPath="$PROJECT_DIR$/derived/Script experiment/canny edges.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_4.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_5.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_6.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_7.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_8.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/figure_9.png" afterPath="$PROJECT_DIR$/derived/Script experiment/figure_9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/histogram of grey values.png" afterPath="$PROJECT_DIR$/derived/Script experiment/histogram of grey values.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/Script experiment/threshold.png" afterPath="$PROJECT_DIR$/derived/Script experiment/threshold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/dilated.pdf" afterPath="$PROJECT_DIR$/derived/dilated.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/dilated.png" afterPath="$PROJECT_DIR$/derived/dilated.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/hsiHsv results/hue.jpg" afterPath="$PROJECT_DIR$/derived/hsiHsv results/hue.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/results/mean_filter.png" afterPath="$PROJECT_DIR$/derived/mean_filter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled folder/WHAT.png" afterPath="$PROJECT_DIR$/Other/WHAT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled folder/figure_1.png" afterPath="$PROJECT_DIR$/Other/figure_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebooks/TestingDifferentColorChannels.ipynb" afterPath="$PROJECT_DIR$/notebooks/TestingDifferentColorChannels.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampleData.py" afterPath="$PROJECT_DIR$/sampleData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PieceRecognizer.iws" />
@@ -22,14 +83,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PieceRecognizer$dilationTest.coverage" NAME="dilationTest Coverage Results" MODIFIED="1497637121148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PieceRecognizer$testSciKit2.coverage" NAME="testSciKit2 Coverage Results" MODIFIED="1497567241062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PieceRecognizer$tryAlternateColorSpace.coverage" NAME="tryAlternateColorSpace Coverage Results" MODIFIED="1497765759409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PieceRecognizer$plot_coins_segmentation.coverage" NAME="plot_coins_segmentation Coverage Results" MODIFIED="1497766009934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PieceRecognizer$testSciKit.coverage" NAME="testSciKit Coverage Results" MODIFIED="1497565380119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PieceRecognizer$testSciKit3.coverage" NAME="testSciKit3 Coverage Results" MODIFIED="1497567934604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -39,38 +92,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sampleData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sampleData.py">
+      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57042253">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spencerUtilities.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spencerUtilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-              <folding>
-                <element signature="e#24#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importsForTesting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/importsForTesting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <element signature="e#24#42#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.04225352">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,24 +111,24 @@
       </list>
     </option>
   </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testSciKit.py" />
-        <option value="$PROJECT_DIR$/testSciKit2.py" />
-        <option value="$PROJECT_DIR$/testSciKit3.py" />
-        <option value="$USER_HOME$/anaconda/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py" />
-        <option value="$PROJECT_DIR$/dilationTest.py" />
-        <option value="$PROJECT_DIR$/tryAlternateColorSpace.py" />
-        <option value="$PROJECT_DIR$/plot_coins_segmentation.py" />
-        <option value="$PROJECT_DIR$/data.py" />
-        <option value="$PROJECT_DIR$/imports.py" />
-        <option value="$PROJECT_DIR$/sampleData.py" />
-        <option value="$PROJECT_DIR$/importsForTesting.py" />
-        <option value="$PROJECT_DIR$/spencerUtilities.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/ImageDetailsMetadata.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/ImageMetadataBase.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/Metadata.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/SingleImageDetailsMetadata.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/DataTransformer.py" />
+        <option value="$PROJECT_DIR$/pythonSource/organizingClasses/SingleImageMetadataBase.py" />
+        <option value="$PROJECT_DIR$/src/colorClusterer.py" />
       </list>
     </option>
   </component>
@@ -125,8 +152,13 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -169,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="results" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,158 +215,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hsiHsv results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bnImages1" />
+              <option name="myItemId" value="originals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propGUI" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda/envs/python3_5/bin/python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/grapheneImages1" />
-      <recent name="$PROJECT_DIR$/data/bnImages1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/grapheneImages1" />
+      <recent name="$PROJECT_DIR$/Other" />
+      <recent name="$PROJECT_DIR$/pythonSource/initialPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plot_coins_segmentation">
-    <configuration default="false" name="testSciKit2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+  <component name="RunManager">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testSciKit2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testSciKit3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testSciKit3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dilationTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dilationTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plot_coins_segmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_coins_segmentation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tryAlternateColorSpace" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tryAlternateColorSpace.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -407,12 +337,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -525,33 +449,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.testSciKit2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testSciKit3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dilationTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plot_coins_segmentation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tryAlternateColorSpace" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plot_coins_segmentation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tryAlternateColorSpace" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dilationTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testSciKit3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testSciKit2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="055362d6-82b6-4c81-83d5-6c107d3b33c7" name="Default" comment="" />
-      <created>1497561006060</created>
+      <changelist id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="" />
+      <created>1501275228974</created>
       <option name="number" value="Default" />
-      <updated>1497561006060</updated>
+      <updated>1501275228974</updated>
     </task>
     <servers />
   </component>
@@ -559,25 +464,28 @@
     <frame x="1" y="23" width="1425" height="807" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23929824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -592,370 +500,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imports.py">
+    <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageMetadataBase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampleData.py">
+    <entry file="file://$PROJECT_DIR$/Other/javaSrc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spencerUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.14788732">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampleData.py">
+    <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/Metadata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12676056">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
+    <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageDetailsMetadata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="24" />
+          <caret line="0" column="95" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit2.py">
+    <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/DataTransformer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.2535211">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_coins_segmentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tryAlternateColorSpace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/hsiHsv results/hue.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bnImages1/17_04_19_bn_54.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_coins_segmentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tryAlternateColorSpace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.93361">
-          <caret line="544" column="0" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/dilated.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bnImages1/17_04_19_bn_52.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bnImages1/17_04_19_bn_53.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSciKit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda/lib/python3.4/site-packages/skimage/util/dtype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3327616">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/hsiHsv results/hue.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tryAlternateColorSpace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_coins_segmentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04225352">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_17.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/grapheneImages1/17_04_11_graphene_chip1_14.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports.py">
+    <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04225352">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/importsForTesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spencerUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bnImages1/17_04_19_bn_54.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampleData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57042253">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

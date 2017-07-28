@@ -15,7 +15,7 @@ from skimage import morphology
 
 from skimage.filters import sobel
 
-dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/data"
+dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/originals"
 
 filename = os.path.join(dataDirectory, 'bnImages1/17_04_19_bn_52.JPG')
 

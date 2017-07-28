@@ -13,7 +13,7 @@ from scipy import ndimage
 
 from skimage import morphology
 
-dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/data"
+dataDirectory = "/Users/Spencer/PycharmProjects/PieceRecognizer/originals"
 
 filename = os.path.join(dataDirectory, 'bnImages1/17_04_19_bn_52.JPG')
 
@@ -23,7 +23,7 @@ bn = io.imread(filename)
 greybn = rgb2gray(bn)
 # print(greybn[0])
 #
-# coins = skimage.data.coins()
+# coins = skimage.originals.coins()
 # print(coins[0])
 
 edges = canny(greybn)

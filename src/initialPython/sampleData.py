@@ -6,11 +6,11 @@ from skimage.color import rgb2gray
 
 def bn():
     """20x color BN image containing target piece, full size"""
-    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/bnImages1/17_04_19_bn_54.JPG")
+    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/originals/bnImages1/17_04_19_bn_54.JPG")
 
 def graphene():
     """20x color Graphene image containing target piece, full size"""
-    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/grapheneImages1/17_04_11_graphene_chip1_13.JPG")
+    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/originals/grapheneImages1/17_04_11_graphene_chip1_13.JPG")
 
 def smallBn():
      """20x color BN image containing target piece, small size"""
@@ -21,7 +21,7 @@ def smallGraphene():
      return graphene()[1000:2500, 2200:3600]
 
 def monolayer():
-    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/data/grapheneImages1/17_04_11_graphene_chip1_15.JPG")
+    return io.imread("/Users/Spencer/PycharmProjects/PieceRecognizer/originals/grapheneImages1/17_04_11_graphene_chip1_15.JPG")
 
 def smallMonolayer():
     pass

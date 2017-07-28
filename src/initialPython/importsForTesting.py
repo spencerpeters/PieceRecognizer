@@ -15,6 +15,7 @@ from skimage.morphology import watershed, h_maxima, h_minima
 from skimage.color import rgb2hsv, rgb2gray
 from skimage.filters.rank import gradient
 from scipy.signal import argrelmin, find_peaks_cwt
+import matplotlib.patches as mpatches
 
 bn = sampleData.bn()
 sbn = sampleData.smallBn()
