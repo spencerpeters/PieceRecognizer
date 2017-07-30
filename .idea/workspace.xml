@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region151.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region161.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/region95.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/labeled/myLabeled.jpg" afterPath="$PROJECT_DIR$/derived/labeled/myLabeled.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/colorClusterer.py" afterPath="$PROJECT_DIR$/src/colorClusterer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/importsForTesting.py" afterPath="$PROJECT_DIR$/src/importsForTesting.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/sampleData.py" afterPath="$PROJECT_DIR$/src/sampleData.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/spencerUtilities.py" afterPath="$PROJECT_DIR$/src/spencerUtilities.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebooks/TryAllThresholdsCorrect.ipynb" afterPath="$PROJECT_DIR$/notebooks/TryAllThresholdsCorrect.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PieceRecognizer.iws" />
@@ -63,18 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#111#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="region1.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region1.jpg">
           <provider selected="true" editor-type-id="images">
@@ -82,52 +38,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region3.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region3.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region6.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region6.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="importsForTesting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/importsForTesting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="spencerUtilities.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spencerUtilities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.83511776">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region6.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region6.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="region11.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region11.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17_04_19_bn_52.JPG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_52.JPG">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myLabeled.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/labeled/myLabeled.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="sampleData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sampleData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -244,6 +191,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initialPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PieceRecognizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PieceRecognizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="originals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -277,6 +242,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derived" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labeled" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,6 +293,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/Other" />
       <recent name="$PROJECT_DIR$/pythonSource/initialPython" />
     </key>
@@ -567,7 +537,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1425" height="807" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="101" y="123" width="1225" height="607" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -580,7 +550,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -719,27 +689,32 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#111#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region1.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region3.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel5.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region6.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -749,14 +724,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region11.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region6.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.299786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importsForTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spencerUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83511776">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
