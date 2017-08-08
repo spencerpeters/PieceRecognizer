@@ -33,6 +33,7 @@ BN_DIR = ORIGINALS_DIR + "bnImages1/"
 GR_DIR = ORIGINALS_DIR + "grapheneImages1/"
 CLUSTERS_DIR = DERIVED_DIR + "clusters/"
 LABELS_DIR = DERIVED_DIR + "labeled/"
+CACHED_TREE_COMPUTATIONS_DIR = DERIVED_DIR + "cachedTreeComputations/"
 
 def main():
     paths = [join(BN_DIR, f) for f in os.listdir(BN_DIR) if isfile(join(BN_DIR, f))]
@@ -62,43 +63,30 @@ class ColorClusterer:
         self.originalImage = originalImage
         assert(originalImage.shape)
 
-        self.zoomFactor = zoomFactor
-        self.compressedImage = self.comp(self.originalImage)
+        self.initializeCompressedImageAndRelatedData(zoomFactor)
 
-        self.numClusters = numClusters
-        self.clusteredImage = None
-        self.thumbnails = []
+        self.initializeClusteringInputOutput(numClusters)
 
-    # Shitty downsizing of image using ZOOM_FACTOR as stride length
-    def comp(self, img):
-        compress = img[0:len(img):self.zoomFactor,0:len(img[0]):self.zoomFactor]
-        return compress
+        self.initializeClusterer()
 
-# converts image to greyscale
-    @staticmethod
-    def avg(img):
-        return rgb2gray(img)
+    # ----- Setter methods -----
 
+    def setZoomFactor(self, newZoomFactor):
+        self.initializeCompressedImageAndRelatedData(newZoomFactor)
+
+    def setNumClusters(self, newNumClusters):
+        self.numClusters = newNumClusters
+        self.agglomerativeClusterer.set_params(n_clusters=newNumClusters)
+
+    # ----- Main methods -----
     # takes in an image array and optional number of clusters desired
     # returns array of size of image whose nonzero values are to which cluster each pixel belongs
     def cluster(self):
-
-        grey = self.avg(self.compressedImage)
-
-        # initializes connectivity matrix
-        connectivity = grid_to_graph(*grey.shape)
-
-        # reshapes the image into an nx3 array of pixels (features)
-        X = np.reshape(self.compressedImage, (-1, 3))
-
         # linkage basically chooses how "distance" between color values computed, ward only setting that worked for me
-        ward = AgglomerativeClustering(n_clusters=self.numClusters, linkage='ward',
-                                       connectivity=connectivity, compute_full_tree = 'auto')
-        ward.fit(X)
+        self.agglomerativeClusterer.fit(self.features)
 
-        labels = np.reshape(ward.labels_, grey.shape)
+        labels = np.reshape(self.agglomerativeClusterer.labels_, self.gray.shape)
         self.clusteredImage = labels
-
 
     def regionImages(self):
         regions = regionprops(self.clusteredImage)
@@ -111,6 +99,36 @@ class ColorClusterer:
                 # print(np.shape(region.intensity_image))
                 thumbnail = self.compressedImage[min_row:max_row, min_col:max_col, :]
                 self.thumbnails.append(thumbnail)
+
+    # --------- Internal methods --------
+
+    # Shitty downsizing of image using ZOOM_FACTOR as stride length
+    def comp(self, img):
+        compress = img[0:len(img):self.zoomFactor,0:len(img[0]):self.zoomFactor]
+        return compress
+
+    # converts image to greyscale
+    @staticmethod
+    def avg(img):
+        return rgb2gray(img)
+
+    def initializeClusteringInputOutput(self, numClusters):
+        self.numClusters = numClusters
+        self.clusteredImage = None
+        self.thumbnails = []
+
+    def initializeCompressedImageAndRelatedData(self, zoomFactor):
+        self.zoomFactor = zoomFactor
+        self.compressedImage = self.comp(self.originalImage)
+        self.gray = self.avg(self.compressedImage)
+        self.connectivity = grid_to_graph(*self.gray.shape)
+        self.features = np.reshape(self.compressedImage, (-1, 3))
+
+    def initializeClusterer(self):
+        self.agglomerativeClusterer = self.agglomerativeClusterer = AgglomerativeClustering(n_clusters=self.numClusters,
+                                                                                            linkage='ward',
+                                                                                            connectivity=self.connectivity,
+                                                                                            compute_full_tree='auto')
 
 if __name__ == '__main__':
     main()

@@ -2,11 +2,363 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/importsForTesting.py" afterPath="$PROJECT_DIR$/src/importsForTesting.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/sampleData.py" afterPath="$PROJECT_DIR$/src/sampleData.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/initialPython/spencerUtilities.py" afterPath="$PROJECT_DIR$/src/spencerUtilities.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebooks/TryAllThresholdsCorrect.ipynb" afterPath="$PROJECT_DIR$/notebooks/TryAllThresholdsCorrect.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original1/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original10/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original11/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original2/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original3/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original4/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original5/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original6/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original7/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region49.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region62.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region69.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region71.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region73.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region79.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original8/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/derived/clusters/original9/region9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/importsForTesting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sampleData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/spencerUtilities.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region0.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region1.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region10.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region11.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region2.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region3.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region4.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region5.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region6.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region7.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/clusters/original0/region8.jpg" afterPath="$PROJECT_DIR$/derived/clusters/original0/region8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derived/labeled/myLabel0.jpg" afterPath="$PROJECT_DIR$/derived/labeled/myLabel0.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/colorClusterer.py" afterPath="$PROJECT_DIR$/src/colorClusterer.py" />
     </list>
     <ignored path="PieceRecognizer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,63 +370,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PieceRecognizer$testExtractionOfColorClustererClusteringTree.coverage" NAME="testExtractionOfColorClustererClusteringTree Coverage Results" MODIFIED="1501455918685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/PieceRecognizer$colorClusterer.coverage" NAME="colorClusterer Coverage Results" MODIFIED="1501293773461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PieceRecognizer$colorClustererPicksK.coverage" NAME="colorClustererPicksK Coverage Results" MODIFIED="1501467550131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PieceRecognizer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="region1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region1.jpg">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myLabel7.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel7.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colorClusterer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
+      <file leaf-file-name="colorClustererPicksK.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/colorClustererPicksK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="importsForTesting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/importsForTesting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="region8.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region8.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spencerUtilities.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spencerUtilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83511776">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sampleData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sampleData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="17_04_19_bn_58.JPG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_58.JPG">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -104,16 +452,19 @@
         <option value="$PROJECT_DIR$/pythonSource/organizingClasses/SingleImageDetailsMetadata.py" />
         <option value="$PROJECT_DIR$/pythonSource/organizingClasses/DataTransformer.py" />
         <option value="$PROJECT_DIR$/pythonSource/organizingClasses/SingleImageMetadataBase.py" />
+        <option value="$PROJECT_DIR$/src/testExtractionOfColorClustererClusteringTree.py" />
+        <option value="$PROJECT_DIR$/src/utilities/importsForTesting.py" />
+        <option value="$PROJECT_DIR$/src/tests/testExtractionOfColorClustererClusteringTree.py" />
+        <option value="$PROJECT_DIR$/src/colorClustererPicksK.py" />
         <option value="$PROJECT_DIR$/src/colorClusterer.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
@@ -121,18 +472,7 @@
     <option name="width" value="1425" />
     <option name="height" value="807" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <OptionsSetting value="true" id="Undo Check Out" />
-    <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -147,130 +487,50 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initialPython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="originals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="originals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bnImages1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="derived" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labeled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PieceRecognizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="derived" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clusters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="derived" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="derived" type="462c0819:PsiDirectoryNode" />
+              <item name="labeled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="originals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="originals" type="462c0819:PsiDirectoryNode" />
+              <item name="bnImages1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PieceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PieceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -289,16 +549,30 @@
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests" />
+      <recent name="$PROJECT_DIR$/src/utilities" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/Other" />
       <recent name="$PROJECT_DIR$/pythonSource/initialPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.colorClusterer">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.colorClustererPicksK">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -316,23 +590,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="colorClusterer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PieceRecognizer" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/colorClusterer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,9 +665,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -516,21 +777,85 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration name="colorClusterer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PieceRecognizer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/colorClusterer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="colorClustererPicksK" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PieceRecognizer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/colorClustererPicksK.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testExtractionOfColorClustererClusteringTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PieceRecognizer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/testExtractionOfColorClustererClusteringTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.colorClusterer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testExtractionOfColorClustererClusteringTree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.colorClustererPicksK" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.colorClusterer" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.colorClustererPicksK" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testExtractionOfColorClustererClusteringTree" />
+        <item index="2" class="java.lang.String" itemvalue="Python.colorClusterer" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="94cac805-eff6-40cb-bb2e-97240b0066b6" name="Default" comment="" />
       <created>1501275228974</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1501275228974</updated>
     </task>
     <servers />
@@ -539,54 +864,58 @@
     <frame x="1" y="23" width="1425" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="101" y="123" width="1225" height="607" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="101" y="123" width="1225" height="607" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -600,47 +929,88 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/colorClustererPicksK.py</url>
+          <line>101</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tests/testExtractionOfColorClustererClusteringTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/importsForTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/spencerUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/sampleData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorClustererPicksK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageMetadataBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Other/javaSrc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14788732">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/Metadata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12676056">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/SingleImageDetailsMetadata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="95" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="95" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/initialPython/organizingClasses/DataTransformer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2535211">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -654,27 +1024,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_53.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/derived/labeled/myLabeled.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_58.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_59.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_56.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -685,11 +1040,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_52.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -709,72 +1059,188 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classifier/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/spencerUtilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/sampleData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/importsForTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/cachedTreeComputations/joblib/sklearn/cluster/hierarchical/ward_tree/func_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/cachedTreeComputations/joblib/sklearn/cluster/hierarchical/ward_tree/cbcbfc777b8bf96990eab097b0490c52/output.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/cachedTreeComputations/joblib/sklearn/cluster/hierarchical/ward_tree/cbcbfc777b8bf96990eab097b0490c52/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/testExtractionOfColorClustererClusteringTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/python3_5/lib/python3.5/site-packages/sklearn/metrics/cluster/unsupervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region6.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original11/region2.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region6.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region3.jpg">
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region12.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/perceptron.py">
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/labeled/myLabel7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_53.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_56.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derived/clusters/original0/region8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/originals/bnImages1/17_04_19_bn_58.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorClustererPicksK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.299786">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="465">
+          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derived/clusters/original5/region1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/colorClusterer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sampleData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/importsForTesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spencerUtilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83511776">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
